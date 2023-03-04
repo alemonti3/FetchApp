@@ -1,0 +1,51 @@
+
+
+.monthList{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.title{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: rgb(142, 142, 142);
+}
+
+.month{
+    border-bottom: 2px solid rgb(39, 176, 235);
+}
+
+.month:focus{
+    border: green;
+}
+
+.monthContent{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: baseline;
+    width: 90px;
+    height: 80px;
+    border: 1px solid rgba(189, 189, 189, 0.592);
+    padding: 5px;
+}
+.monthName{
+    display: flex;
+    font-weight: 600;
+    color: rgb(39, 176, 235);
+    border: 1px solid rgba(189, 189, 189, 0.592);
+    border-bottom: none;
+    padding: 5px;
+}
+
+.monthDocument{
+    color: grey;
+}
+
+.monthAmount{
+    color: green;
+}
